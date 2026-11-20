@@ -11,7 +11,7 @@ and every hardcoded secret — file, line, and whether the hit is real code or a
 then writes a detailed Excel report.
 
 [![Download](https://img.shields.io/badge/Download-Windows%20Installer-2563eb?style=for-the-badge&logo=windows)](../../releases/latest)
-[![Version](https://img.shields.io/badge/version-1.1.0-38bdf8?style=for-the-badge)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-1.2.0-38bdf8?style=for-the-badge)](../../releases/latest)
 [![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=for-the-badge)](../../releases/latest)
 
 **[⬇ Download the latest release](../../releases/latest)**
@@ -107,8 +107,8 @@ Matching, file selection, secret detection, AI triage and report defaults — wi
 AI classification labels each secret finding `real_secret`, `sanitized_or_test` or
 `false_positive` with a one-line reason, written into the report.
 
-**The app ships no API key and has no key-entry screen.** It uses a credential supplied by the
-environment of the machine it runs on; when none is present the app says plainly
+**The app ships no API key.** You supply your own: paste it into Options and press **Save key**, and it is stored encrypted with Windows DPAPI for your account only (never in plain text, never in the logs or the report, never on a command line). **Clear key** removes it at any time. A key can also come from the
+provider's environment variable instead; when neither is present the app says plainly
 *"AI service: not configured"* and **all local scanning continues to work**. Enabling it also
 requires ticking an explicit consent box, because matched source lines are sent to the provider.
 A max-findings cost cap is always applied.
@@ -126,7 +126,7 @@ Built with the ImportExcel engine — **Microsoft Excel is not required to creat
 
 ## Install
 
-1. **[Download `CodeSentinelAI-Setup-1.1.0.exe`](../../releases/latest)**
+1. **[Download `CodeSentinelAI-Setup-1.2.0.exe`](../../releases/latest)**
 2. Run it — installs for **your user only, no administrator rights**
 3. Pick the folder, choose shortcuts, press **Install**
 
