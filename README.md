@@ -223,7 +223,7 @@ If CodeSentinel AI helps you identify security risks and save development time, 
 supporting its continued development. Every contribution helps improve and maintain this project.
 
 <div align="center">
-<img src="assets/donate-phonepe.jpg" width="300" alt="UPI QR">
+<img src="assets/donate-phonepe.png" width="300" alt="UPI QR">
 
 **Scan to Pay** · PhonePe, Google Pay, Paytm or any UPI app
 
@@ -236,5 +236,5 @@ supporting its continued development. Every contribution helps improve and maint
 
 <div align="center">
 <sub>Built with care by Devashish. Thank you for supporting independent software development.</sub><br>
-<sub>© 2026 Devashish · Free to use · Provided as-is, without warranty</sub>
+<sub><b>Copyright © 2026 Devashish. All rights reserved.</b></sub><br><sub>CodeSentinel AI and its name, icon and branding are the property of Devashish. Provided as-is, without warranty of any kind.</sub>
 </div>
